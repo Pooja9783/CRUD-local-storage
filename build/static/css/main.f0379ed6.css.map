@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.f0379ed6.css","mappings":"AAAA,EAEI,QAAS,CADT,SAEJ,CACA,KACI,wBACJ","sources":["App.css"],"sourcesContent":["*{\r\n    padding: 0;\r\n    margin: 0;\r\n}\r\nbody{\r\n    background-color: rgb(185, 208, 160);\r\n}"],"names":[],"sourceRoot":""}
