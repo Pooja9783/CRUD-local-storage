@@ -7,13 +7,8 @@ const CreateGame = () => {
   const [author, setAuthor] = useState("");
   const [publishDate, setPublishDate] = useState("");
   const navigate = useNavigate();
-  //   console.log(data);
   const handleForm = (e) => {
     e.preventDefault();
-    // const name = e.target.elements.name.value;
-    // const url = e.target.elements.url.value;
-    // const author = e.target.elements.author.value;
-    // const publish_data = e.target.elements.date.value;
 
     const newData = {
       id: Math.random(),
@@ -22,7 +17,6 @@ const CreateGame = () => {
       author,
       publishDate,
     };
-    // setData([...data, newData]);
     const games =
       localStorage.getItem("data") && localStorage.getItem("data").length > 0
         ? JSON.parse(localStorage.getItem("data"))
