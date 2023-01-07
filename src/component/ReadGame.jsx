@@ -31,7 +31,11 @@ const ReadGame = () => {
   };
 
   return (
-    <div className="text-bg-light">
+    <div
+      style={{
+        background: "rgb(185, 208, 160)",
+      }}
+    >
       <h5 className="card-title" style={{ textAlign: "center" }}>
         Created Game
       </h5>
