@@ -17,6 +17,7 @@ const CreateGame = () => {
       author,
       publishDate,
     };
+
     const games =
       localStorage.getItem("data") && localStorage.getItem("data").length > 0
         ? JSON.parse(localStorage.getItem("data"))
