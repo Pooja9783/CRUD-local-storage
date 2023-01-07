@@ -40,7 +40,7 @@ const ReadSingleGame = () => {
         style={{ width: "500px", margin: "10px auto" }}
       ></div>
       {list
-        ?.filter((e) => e.id == `${id}`)
+        ?.filter((e) => e.id === `${id}`)
         .map((items) => {
           return (
             <div

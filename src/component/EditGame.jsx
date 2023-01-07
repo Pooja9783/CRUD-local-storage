@@ -4,14 +4,12 @@ import { useNavigate } from "react-router-dom";
 
 const EditGame = () => {
   const navigate = useNavigate();
-  const [list, setList] = useState([]);
   const [name, setName] = useState("");
   const [url, setUrl] = useState("");
   const [author, setAuthor] = useState("");
   const [publishDate, setPublishDate] = useState("");
   useEffect(() => {
     const items = JSON.parse(localStorage.getItem("editItem"));
-    setList(items);
     setName(items?.name);
     setUrl(items?.url);
     setAuthor(items?.author);
